@@ -25,7 +25,7 @@
 
 (defvar sleigh-mode-syntax-table nil "Syntax table for `sleigh-mode'.")
 
-(setq -mode-syntax-table
+(setq sleigh-mode-syntax-table
       (let ( (table (make-syntax-table)))
         ;; comment: “# …”
         (modify-syntax-entry ?# "<" table)
